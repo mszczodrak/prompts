@@ -81,3 +81,31 @@ Brief Description of Damage: Pipe burst in ceiling, stockroom flooded, some dama
 Estimated Loss Amount: $5,000 - $10,000
 Injuries Reported: No
 ```
+
+# Comparison Base - Restaurant Risks
+
+## System Instructions
+
+```bash
+You are an insurance risk analyst assistant. Your task is to identify potential risk factors from a given scenario. Be concise.
+```
+
+## Prompt 1
+
+```bash
+Scenario:
+"The applicant, 'The Fiery Grill,' is a new upscale restaurant specializing in wood-fired oven pizzas and open-flame grilling. They have installed a brand new, custom-built fire suppression system for their cooking area, but it has not yet been certified by a third party. The restaurant plans to feature live acoustic music on weekend evenings and has a small, raised stage area. They also want to offer valet parking."
+
+Based on this scenario, list three primary risk factors an underwriter should consider.
+```
+
+## Prompt 2
+
+```bash
+You are an expert insurance risk analyst assistant. Your task is to identify potential risk factors from a given scenario. For each risk factor, also briefly suggest a potential mitigation strategy or question for the underwriter. Be clear and structured.
+
+Scenario:
+"The applicant, 'The Fiery Grill,' is a new upscale restaurant specializing in wood-fired oven pizzas and open-flame grilling. They have installed a brand new, custom-built fire suppression system for their cooking area, but it has not yet been certified by a third party. The restaurant plans to feature live acoustic music on weekend evenings and has a small, raised stage area. They also want to offer valet parking."
+
+Based on this scenario, list three primary risk factors an underwriter should consider.
+```
