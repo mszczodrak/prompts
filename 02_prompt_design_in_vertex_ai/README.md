@@ -109,3 +109,24 @@ Scenario:
 
 Based on this scenario, list three primary risk factors an underwriter should consider.
 ```
+
+# Timetable Image Analysis
+
+
+Image
+
+1. Provide a concise title for this image (under 5 words).
+2. Describe the image in one or two sentences.
+3. Extract all visible text from the image. Present the flight schedule as a clearly formatted list with columns for "Time" and "City".
+
+Imagen
+
+A close-up, photorealistic image of a single honeybee collecting pollen from a vibrant purple lavender flower, with a softly blurred garden background.
+
+Veo
+
+Drone shot slowly flying over vast green hills at golden hour.
+
+Chirp
+
+Welcome to the world of generative AI on Google Cloud

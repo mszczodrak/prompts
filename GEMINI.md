@@ -19,3 +19,8 @@ The Gemini API in Vertex AI provides a unified interface for interacting with Ge
 -- Sub-second response times and high throughput.
 -- High quality at a lower cost for a wide range of tasks.
 -- Enhanced multimodal capabilities, including improved spatial understanding, new output modalities (text, audio, images), and native tool use (Google Search, code execution, and third-party functions).
+
+
+
+https://ai.google.dev/gemini-api/docs/prompting-strategies
+
