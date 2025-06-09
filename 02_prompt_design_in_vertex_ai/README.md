@@ -23,3 +23,61 @@ Your Task:
 2. Based *only* on the notes provided, identify any immediate questions an underwriter should ask or potential risk factors they should consider further.
 Present the summary first, then the questions/risk factors as bullet points.
 ```
+
+# Insurance Claim Data Extraction
+
+## System Instructions
+
+```bash
+You are an AI assistant specializing in parsing and extracting specific data points from unstructured insurance claim notifications.
+Your goal is to identify and list key information accurately.
+If a piece of information is not found, clearly state "Not found".
+Output the extracted information in a key: value format, with each key on a new line.
+```
+
+## Prompt
+
+```bash
+Claim Notification Received:
+"Hi team, just got a call from Mrs. Eleanor Vance, policy #POL458892. She reported a kitchen fire that occurred on May 12th, 2025, around 3 PM. The main damage seems to be to the oven and surrounding cabinets. She mentioned smoke damage in the kitchen and dining area too. She thinks the total damage might be around $7,500. Her contact is 555-0123. No injuries reported, thankfully."
+
+Extract the following:
+- Policy Number
+- Claimant Name
+- Date of Loss
+- Time of Loss
+- Type of Loss
+- Brief Description of Damage
+- Estimated Loss Amount
+- Injuries Reported
+```
+
+Example Input
+
+```bash
+Claim Notification Received:
+"Email from John Sterling (policy POL77521) re: water damage at his shop. Happened sometime last night, May 10th, 2025. A pipe burst in the ceiling. Stockroom is flooded, some damage to inventory. He's not sure on the cost yet, maybe $5k-$10k? No one was there, so no injuries."
+
+Extract the following:
+- Policy Number
+- Claimant Name
+- Date of Loss
+- Time of Loss
+- Type of Loss
+- Brief Description of Damage
+- Estimated Loss Amount
+- Injuries Reported
+```
+
+Example Output
+
+```bash
+Policy Number: POL77521
+Claimant Name: John Sterling
+Date of Loss: May 10th, 2025
+Time of Loss: Night
+Type of Loss: Water damage
+Brief Description of Damage: Pipe burst in ceiling, stockroom flooded, some damage to inventory.
+Estimated Loss Amount: $5,000 - $10,000
+Injuries Reported: No
+```
