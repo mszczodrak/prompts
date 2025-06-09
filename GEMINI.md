@@ -24,3 +24,15 @@ The Gemini API in Vertex AI provides a unified interface for interacting with Ge
 
 https://ai.google.dev/gemini-api/docs/prompting-strategies
 
+
+## Generative AI on Vertex AI Cookbook 
+
+https://cloud.google.com/vertex-ai/generative-ai/docs/cookbook
+
+## Sample code and notebooks for Generative AI on Google Cloud, with Gemini on Vertex AI
+
+https://github.com/GoogleCloudPlatform/generative-ai
+
+## Overview of Generative AI on Vertex AI
+
+https://cloud.google.com/vertex-ai/generative-ai/docs
