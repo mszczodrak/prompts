@@ -40,3 +40,4 @@ https://cloud.google.com/vertex-ai/generative-ai/docs
 ## Intro to function calling
 
 https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/function-calling/intro_function_calling.ipynb
+
